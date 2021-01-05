@@ -36,4 +36,6 @@ Refining takes an abstracted network, the original network as well as the partit
 finds which neuron in the original created the biggest difference. This will then be removed from the partition it is in, and kept as
 a partition by itself. Then abstraction is done using this new, refined list of partitions.
 
-Cegar loop is as in the paper, and the completed property is to check if squares are classified as rectangles by the network. 
+Cegar loop is as in the paper linked below, and the completed property is to check if squares are classified as rectangles by the network. 
+
+Paper: https://www.researchgate.net/publication/342970033_An_Abstraction-Based_Framework_for_Neural_Network_Verification
